@@ -15,8 +15,8 @@ import java.util.Map;
 import net.engineeringdigest.journalApp.entity.JournalEntry;
 
 @RestController
-@RequestMapping("/journal")
-public class JournaalEntryController {
+@RequestMapping("/_journal")
+public class JournalEntryController {
     private Map<Long, JournalEntry> journalEntries = new HashMap<>();
 
     // Endpoint to get all journal entries
@@ -32,7 +32,7 @@ public class JournaalEntryController {
 
     @PostMapping
     public boolean createEntry(@RequestBody JournalEntry myEntry){
-        journalEntries.put(myEntry.getId(),myEntry);
+        //journalEntries.put(myEntry.getId(),myEntry);
         return true;
 
     }
