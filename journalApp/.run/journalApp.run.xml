@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="journalApp" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="net.engineeringdigest.journalApp.JournalApplication" />
+    <module name="journalApp" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
